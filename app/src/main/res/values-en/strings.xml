@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">What is the fuel</string>
+    <string name="answer_ethanol">Fuel with etanol.</string>
+    <string name="answer_gas">Fuel with gasoline.</string>
+    <string name="message_gas">Gasoline per liter value:</string>
+    <string name="message_ethanol">Etanol per liter Value:</string>
+    <string name="button_text">What is the best Option:</string>
+</resources>
