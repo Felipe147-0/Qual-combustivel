@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ethanol">#7CD330</color>
+    <color name="gasoline">#DF947C</color>
 </resources>
