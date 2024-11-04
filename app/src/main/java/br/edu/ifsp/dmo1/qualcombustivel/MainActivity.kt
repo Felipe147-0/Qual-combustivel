@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         setContentView(R.layout.activity_main)
         findById()
         setClick()
+        Toast.makeText(this, getString(R.string.toast_welcome), Toast.LENGTH_LONG).show()
     }
 
     override fun onClick(v: View) {
@@ -37,11 +38,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         if (gasolineEditText.text.toString().isEmpty() || ethanolEditText.text.toString()
                 .isEmpty()
         ) {
-            Toast.makeText(
-                this,
-                "Informe o valor dos dois combustíveis.",
-                Toast.LENGTH_SHORT
-            ).show();
+            Toast.makeText(this, getString(R.string.message_button), Toast.LENGTH_SHORT).show();
             mTextView.text = ""
         } else {
             val gas = retriveValue(gasolineEditText)
@@ -73,7 +70,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
      * erro (exceção) o valor zero é retornado.
      */
     private fun retriveValue(input: EditText): Double {
-        return try {
+        return try {                                              // presta atenção
             input.text.toString().toDouble()
         } catch (e: NumberFormatException) {
             Toast.makeText(this, "Valor inválido", Toast.LENGTH_SHORT).show()

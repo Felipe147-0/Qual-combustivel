@@ -5,4 +5,7 @@
     <string name="message_gas">Valor do litro de gasolina:</string>
     <string name="message_ethanol">Valor do litro de etanol:</string>
     <string name="button_text">Qual a melhor opção?</string>
+    <string name="toast_welcome">Bem vindo!</string>
+    <string name="message_button">Informe o valor dos dois combustíveis.</string>
+
 </resources>

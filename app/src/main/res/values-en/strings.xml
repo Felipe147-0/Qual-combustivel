@@ -5,4 +5,6 @@
     <string name="message_gas">Gasoline per liter value:</string>
     <string name="message_ethanol">Etanol per liter Value:</string>
     <string name="button_text">What is the best Option?</string>
+    <string name="toast_welcome">Welcome!</string>
+    <string name="message_button">Enter the value of the two fuels.</string>
 </resources>
