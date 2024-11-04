@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         if (gasolineEditText.text.toString().isEmpty() || ethanolEditText.text.toString()
                 .isEmpty()
         ) {
-            Toast.makeText(this, getString(R.string.message_button), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.message_button), Toast.LENGTH_SHORT).show()
             mTextView.text = ""
         } else {
             val gas = retriveValue(gasolineEditText)
